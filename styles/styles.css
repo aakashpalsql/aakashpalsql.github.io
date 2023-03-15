@@ -425,6 +425,8 @@ section {
 .portfolios .portfolio-item {
   position: relative;
   border-radius: 15px;
+  border-style: solid;
+  border-width: 1px;
 }
 .portfolios .portfolio-item img {
   width: 100%;
