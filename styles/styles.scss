@@ -274,7 +274,7 @@ section {
             display: flex;
             flex-direction: column;
             .prog-title {
-                text-transform: uppercase;
+                text-transform: none;
                 font-weight: 500;
             }
             .progress-con {
@@ -298,12 +298,17 @@ section {
                         transition: all .4s ease-in-out;
                         width: 60%;
                     }
-                    .html { width: 80%; }
-                    .css { width: 95%; }
-                    .js { width: 75%; }
-                    .react{ width: 60%; }
-                    .node{ width: 87%; }
-                    .python{ width: 70%; }
+                    .python{ width: 80%; }
+                    .flaskapi { width: 80%; }
+                    .mongodb { width: 75%; }
+                    .mysql { width: 75%; }
+                    .ml{ width: 80%; }
+                    .mlops{ width: 80%; }
+                    .statistics{ width: 85%; }
+                    .powerbi{ width: 80%; }
+                    .excel{ width: 80%; }
+                    .html{ width: 80%; }
+                    .csss{ width: 80%; }
                 }
             }
         }
@@ -361,7 +366,7 @@ section {
         }
         h5 {
             padding: 1rem 0;
-            text-transform: uppercase;
+            text-transform: none;
             font-size: 1.3rem;
             font-weight: 600;
             span {
