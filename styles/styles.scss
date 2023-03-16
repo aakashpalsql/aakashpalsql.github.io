@@ -72,8 +72,28 @@ section {
     transition: all .4s ease-in-out;
     background-color: var(--color-primary);
 }
+.ongoing {
+    font-size: 2em;
+    font-family: serif;
+    color: #008000;
+    text-align: center;
+    animation: animate 
+        1.5s linear infinite;
+}
 
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
 
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
 .active {
     display: block;
     animation: appear 1s ease-in-out;
