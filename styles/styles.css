@@ -45,6 +45,7 @@
 :root {
   --color-primary: #191d2b;
   --color-secondary: #27AE60;
+  --color-secondary2: #27AE60;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -61,6 +62,7 @@
 .light-mode {
   --color-primary: #FFFFFF;
   --color-secondary: #F56692;
+  --color-secondary2: #F56692;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -412,9 +414,9 @@ section {
   position: absolute;
   left: 50%;
   top: 0;
-  width: 40%;
+  width: 80%;
   height: 1px;
-  background-color: var(--color-grey-5);
+  background-color: var(--color-secondary2);
   transform: translateX(-50%);
 }
 
@@ -428,7 +430,7 @@ section {
 .timeline .timeline-item {
   position: relative;
   padding-left: 3rem;
-  border-left: 1px solid var(--color-grey-5);
+  border-left: 1px solid var(--color-secondary2);
 }
 .timeline .timeline-item .tl-icon {
   position: absolute;

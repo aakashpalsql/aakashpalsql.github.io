@@ -347,7 +347,8 @@ section {
         top: 0;
         width: 40%;
         height: 1px;
-        background-color: var(--color-grey-5);
+        // background-color: var(--color-grey-5);
+        background-color: var(--color-secondary2);
         transform: translateX(-50%);
     }
 }
@@ -361,7 +362,7 @@ section {
     .timeline-item {
         position: relative;
         padding-left: 3rem;
-        border-left: 1px solid var(--color-grey-5);
+        border-left: 1px solid var(--color-secondary2);
         .tl-icon {
             position: absolute;
             left: -27px;
